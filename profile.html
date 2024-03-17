@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Softnio" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Lowest cost cloud mining: hosted ASIC mining with full ownership and transparency on payouts. Lowest commissions and fastest ROI in the industry"
+    />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <!-- Site Title  -->
+    <title>EhyipScript - Smart Bitcoin Miner</title>
+    <!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="assets/css/vendor.bundle7500.css?ver=103" />
+    <!-- Custom styles for this template -->
+    <link
+      rel="stylesheet"
+      href="assets/css/style7500.css?ver=103"
+      id="layoutstyle"
+    />
+  </head>
+  <body class="page-user">
+    <div class="topbar-wrap">
+      <div class="topbar is-sticky">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <ul class="topbar-nav d-lg-none">
+              <li class="topbar-nav-item relative">
+                <a class="toggle-nav" href="#">
+                  <div class="toggle-icon">
+                    <span class="toggle-line"></span
+                    ><span class="toggle-line"></span
+                    ><span class="toggle-line"></span
+                    ><span class="toggle-line"></span>
+                  </div>
+                </a>
+              </li>
+              <!-- .topbar-nav-item -->
+            </ul>
+            <!-- .topbar-nav --><a class="topbar-logo" href="#"
+              ><img
+                src="images/logo-light2x.png"
+                srcset="images/logo-light2x.png 2x"
+                alt="logo"
+            /></a>
+            <ul class="topbar-nav">
+              <li class="topbar-nav-item relative">
+                <span class="user-welcome d-none d-lg-inline-block"
+                  >Welcome! r9tech</span
+                ><a class="toggle-tigger user-thumb" href="#"
+                  ><em class="ti ti-user"></em
+                ></a>
+                <div
+                  class="toggle-class dropdown-content dropdown-content-right dropdown-arrow-right user-dropdown"
+                >
+                  <ul class="user-links bg-light">
+                    <li>
+                      <a href="logout"><i class="ti ti-power-off"></i>Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- .topbar-nav-item -->
+            </ul>
+            <!-- .topbar-nav -->
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .topbar -->
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-innr">
+            <ul class="navbar-menu">
+              <li>
+                <a href="dashboard.html"
+                  ><em class="ikon ikon-dashboard"></em> Dashboard</a
+                >
+              </li>
+              <li>
+                <a href="buyhash.html"
+                  ><em class="ikon ikon-coins"></em> Buy Hashrate</a
+                >
+              </li>
+              <li>
+                <a href="withdraw.html"
+                  ><em
+                    class="ikon ti-credit-card"
+                    style="font-size: 20px; margin-right: 7px"
+                  ></em>
+                  Withdraw</a
+                >
+              </li>
+              <li>
+                <a href="affiliates.html"
+                  ><em class="ikon ikon-user"></em> Affiliates</a
+                >
+              </li>
+              <li>
+                <a href="profile.html"
+                  ><em class="ikon ti-panel" style="font-size: 20px"></em>
+                  Settings</a
+                >
+              </li>
+              <li>
+                <a href="promotools.html"
+                  ><em
+                    class="ikon fas fa-bullhorn"
+                    style="font-size: 20px"
+                  ></em>
+                  Advertise</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-btns">
+              <li>
+                <a
+                  href="card.html"
+                  class="btn btn-sm btn-outline btn-light"
+                  style="
+                    color: #fff;
+                    background-image: linear-gradient(
+                      to right,
+                      #3550e0,
+                      #2862ab
+                    );
+                  "
+                  ><em class="ti-credit-card" style="margin-right: 10px"></em
+                  ><span> Prepaid Card</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- .navbar-innr -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .navbar -->
+    </div>
+    <!-- .topbar-wrap -->
+    <div class="page-content">
+      <div class="container">
+        <div class="card-head" style="text-align: center; padding-bottom: 33px">
+          <h2 class="page-title" style="font-size: 33px">Account Settings</h2>
+          <p class="card-title-text">
+            Set or update your personal information on this plataform
+          </p>
+
+          <div
+            class="alert alert-danger-alt alert-dismissible fade show"
+            style="margin-top: 13px; margin-bottom: 0px"
+          >
+            Enable your pincode to make your account more safe!<button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="main-content col-lg-8">
+            <div class="content-area card">
+              <div class="card-innr">
+                <div class="card-head">
+                  <h4 class="card-title">Profile Details</h4>
+                </div>
+                <ul class="nav nav-tabs nav-tabs-line" role="tablist">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active show"
+                      data-toggle="tab"
+                      href="#personal-data"
+                      >Personal Data</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#settings">
+                      Payment Address</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#password"
+                      >Password</a
+                    >
+                  </li>
+                </ul>
+                <!-- .nav-tabs-line -->
+                <div class="tab-content" id="profile-details">
+                  <div class="tab-pane fade active show" id="personal-data">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="input-item input-with-label">
+                          <label for="full-name" class="input-item-label"
+                            >First name</label
+                          >
+                          <input
+                            class="input-bordered"
+                            type="text"
+                            id="fname"
+                            name="fname"
+                            value="ranjith"
+                          />
+                        </div>
+                        <!-- .input-item -->
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-item input-with-label">
+                          <label for="email-address" class="input-item-label"
+                            >Last Name</label
+                          >
+                          <input
+                            class="input-bordered"
+                            type="text"
+                            id="lname"
+                            name="lname"
+                            value="None"
+                          />
+                        </div>
+                        <!-- .input-item -->
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-item input-with-label">
+                          <label for="mobile-number" class="input-item-label"
+                            >Email Address</label
+                          >
+                          <input
+                            class="input-bordered"
+                            type="text"
+                            id="useremail"
+                            name="usermail"
+                            value="metavog836@seosnaps.com"
+                            disabled=""
+                          />
+                        </div>
+                        <!-- .input-item -->
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-item input-with-label">
+                          <label for="date-of-birth" class="input-item-label"
+                            >Your Phone</label
+                          >
+                          <input
+                            class="input-bordered"
+                            type="text"
+                            id="mobile"
+                            name="mobile"
+                            value="+1 555-5555"
+                          />
+                        </div>
+                        <!-- .input-item -->
+                      </div>
+                      <!-- .col -->
+                      <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                    <div class="gaps-1x"></div>
+                    <!-- 10px gap -->
+                    <div
+                      class="d-sm-flex justify-content-between align-items-center"
+                    >
+                      <button class="btn btn-primary changeinfoBTN">
+                        Update Profile
+                      </button>
+                      <div class="gaps-2x d-sm-none"></div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="password">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="input-item input-with-label">
+                          <label for="old-pass" class="input-item-label"
+                            >Old Password</label
+                          >
+                          <input
+                            class="input-bordered"
+                            type="password"
+                            id="oldpassword"
+                            name="oldpassword"
+                          />
+                        </div>
+                        <!-- .input-item -->
+                      </div>
+                      <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="input-item input-with-label">
+                          <label for="new-pass" class="input-item-label"
+                            >New Password</label
+                          >
+                          <input
+                            class="input-bordered"
+                            type="password"
+                            id="newpassword"
+                            name="newpassword"
+                          />
+                        </div>
+                        <!-- .input-item -->
+                      </div>
+                      <!-- .col -->
+                      <div class="col-md-6">
+                        <div class="input-item input-with-label">
+                          <label for="confirm-pass" class="input-item-label"
+                            >Confirm New Password</label
+                          >
+                          <input
+                            class="input-bordered"
+                            type="password"
+                            id="confirm"
+                            name="confirm-pass"
+                          />
+                        </div>
+                        <!-- .input-item -->
+                      </div>
+                      <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                    <div class="note note-plane note-info pdb-1x">
+                      <em class="fas fa-info-circle"></em>
+                      <p>
+                        Password should be minmum 8 letter and include lower and
+                        uppercase letter.
+                      </p>
+                    </div>
+                    <div class="gaps-1x"></div>
+                    <!-- 10px gap -->
+                    <div
+                      class="d-sm-flex justify-content-between align-items-center"
+                    >
+                      <button class="btn btn-primary changepwBTN">
+                        Update
+                      </button>
+                      <div class="gaps-2x d-sm-none"></div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="settings">
+                    <div class="">
+                      <h4 class="popup-title" style="font-size: 17px">
+                        Your Personal Address
+                      </h4>
+                      <p>
+                        Please put your personal bitcoin wallet, to withdraw
+                        your miner balance
+                      </p>
+                      <div class="gaps-1x"></div>
+                      <h6 class="font-bold">Payment Address</h6>
+                      <div
+                        class="copy-wrap mgb-0-5x"
+                        style="margin-bottom: 30px"
+                      >
+                        <span class="copy-feedback"></span>
+                        <em class="fab fa-bitcoin"></em>
+                        <input
+                          type="text"
+                          id="btc_user"
+                          class="copy-address"
+                          value="None"
+                        />
+                        <button
+                          class="copy-trigger copy-clipboard"
+                          data-clipboard-text="None"
+                        >
+                          <em class="ti ti-files"></em>
+                        </button>
+                      </div>
+                      <!-- .copy-wrap -->
+                      <button
+                        class="btn btn-primary changeadBTN"
+                        data-dismiss="modal"
+                        data-toggle="modal"
+                        data-target="#pay-confirm"
+                      >
+                        Update Address
+                      </button>
+                      <div class="gaps-3x"></div>
+                      <div class="note note-plane note-light mgb-1x">
+                        <em class="fas fa-info-circle"></em>
+                        <p>
+                          Do no put exchanges address, you can lost your coins
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .tab-pane -->
+                </div>
+                <!-- .tab-content -->
+              </div>
+              <!-- .card-innr -->
+            </div>
+            <!-- .card -->
+            <div class="content-area card">
+              <div class="card-innr">
+                <div class="card-head">
+                  <h4 class="card-title">Pincode to Withdraw</h4>
+                </div>
+                <p>
+                  Pincode authentication is a method for protection your
+                  withdrawals in your account. When it is active you need to
+                  enter the pin password to process the withdraw fromy your
+                  account. enable to make more strong your account.
+                </p>
+                <div
+                  class="d-sm-flex justify-content-between align-items-center pdt-1-5x"
+                >
+                  <span
+                    class="text-light ucap d-inline-flex align-items-center"
+                  >
+                    <span class="mb-0">
+                      <small>Current Status:</small>
+                    </span>
+                    <span class="badge badge-disabled ml-2">Disabled</span>
+                  </span>
+                  <div class="gaps-2x d-sm-none"></div>
+                  <button class="order-sm-first btn btn-primary enablepin">
+                    Enable Pincode
+                  </button>
+                </div>
+              </div>
+              <!-- .card-innr -->
+            </div>
+            <!-- .card -->
+          </div>
+          <!-- .col -->
+          <div class="aside sidebar-right col-lg-4">
+            <div class="account-info card">
+              <div class="card-innr">
+                <div class="card-head" style="padding-bottom: 10px">
+                  <h5 class="card-title card-title-sm">
+                    <em
+                      class="ti-wallet"
+                      style="font-size: 16px; margin-right: 10px"
+                    ></em>
+                    Payment Address
+                  </h5>
+                </div>
+                <div
+                  class="dashboard_first_visit_box"
+                  style="
+                    background: 0 0;
+                    border: 2px dashed #dbdbdb;
+                    border-radius: 5px;
+                    box-shadow: none;
+                    padding: 30px 20px 0;
+                    width: 100%;
+                  "
+                >
+                  <div
+                    class="note note-danger"
+                    style="margin: auto; background: #224579"
+                  >
+                    <em class="fas fa-info-circle"></em>
+                    <p style="color: #ffffff !important; font-weight: 400">
+                      No payment Address
+                    </p>
+                  </div>
+                  <br />
+                </div>
+              </div>
+            </div>
+            <div class="referral-info card">
+              <div class="card-innr">
+                <h5 class="card-title card-title-sm">
+                  <em
+                    class="ti-user"
+                    style="font-size: 16px; margin-right: 10px"
+                  ></em>
+                  Earn with Referrals
+                </h5>
+                <p class="pdb-0-5x">
+                  Invite your friends &amp; family and receive a
+                  <strong>
+                    <span class="text-primary">bonus - 5%</span> of
+                    contribution.
+                  </strong>
+                </p>
+                <div class="copy-wrap mgb-0-5x">
+                  <span class="copy-feedback"></span>
+                  <em class="fas fa-link"></em>
+                  <input
+                    type="text"
+                    class="copy-address"
+                    value="https://m14.ehyipscript.com/ref?user=r9tech"
+                    disabled=""
+                  />
+                  <button
+                    class="copy-trigger copy-clipboard"
+                    data-clipboard-text="https://m14.ehyipscript.com/ref?user=r9tech"
+                  >
+                    <em class="ti ti-files"></em>
+                  </button>
+                </div>
+                <!-- .copy-wrap -->
+              </div>
+            </div>
+          </div>
+          <!-- .col -->
+        </div>
+        <!-- .container -->
+      </div>
+    </div>
+    <!-- .page-content -->
+    <div class="footer-bar">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-8">
+            <ul class="footer-links">
+              <li><a href="../index">FAQs</a></li>
+              <li><a href="../privacypolicy">Privacy Policy</a></li>
+              <li><a href="../terms">Terms of Condition</a></li>
+            </ul>
+          </div>
+          <!-- .col -->
+          <div class="col-md-4 mt-2 mt-sm-0">
+            <div
+              class="d-flex justify-content-between justify-content-md-end align-items-center guttar-25px pdt-0-5x pdb-0-5x"
+            >
+              <div class="copyright-text">&copy; 2019 EhyipScript.</div>
+            </div>
+          </div>
+          <!-- .col -->
+        </div>
+        <!-- .row -->
+      </div>
+      <!-- .container -->
+    </div>
+    <script src="assets/js/jquery.bundle7500.js?ver=103"></script>
+    <script src="assets/js/script7500.js?ver=103"></script>
+    <script type="text/javascript" src="scripts/settings.js"></script>
+  </body>
+</html>
+
+<script>
+  $(".enablepin").click(function () {
+    $("#newpincode").modal("show");
+  });
+</script>
+
+<div
+  class="modal fade"
+  id="newpincode"
+  tabindex="-1"
+  style="display: none"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-sm modal-dialog-centered"
+    style="max-width: 300px; margin: auto"
+  >
+    <div class="modal-content">
+      <div class="popup-body" style="padding: 20px">
+        <div class="input-item input-with-label" style="text-align: center">
+          <h5 class="card-title card-title-sm">
+            <em
+              class="ti-wallet"
+              style="font-size: 16px; margin-right: 3px"
+            ></em>
+            Create New Pincode
+          </h5>
+
+          <label
+            style="
+              display: block;
+              margin-bottom: 0px;
+              font-size: 13px;
+              margin-top: 4px;
+            "
+          >
+            (Max - 4 Digits)
+          </label>
+        </div>
+
+        <div class="input-item input-with-label">
+          <div class="relative">
+            <span class="input-icon input-icon-right"
+              ><em class="ti ti-mobile"></em
+            ></span>
+
+            <input
+              class="input-bordered"
+              type="text"
+              onkeypress="return isNumberKey(event)"
+              maxlength="4"
+              id="pincode"
+              placeholder="Write a Pincode"
+            />
+          </div>
+        </div>
+        <div class="input-item input-with-label">
+          <div class="relative">
+            <span class="input-icon input-icon-right"
+              ><em class="ti ti-mobile"></em
+            ></span>
+
+            <input
+              class="input-bordered"
+              type="text"
+              onkeypress="return isNumberKey(event)"
+              maxlength="4"
+              id="pinconfirm"
+              placeholder="Confirm Pincode"
+            />
+          </div>
+        </div>
+
+        <div
+          class="input-item input-with-label"
+          style="text-align: center; padding-bottom: 0px"
+        >
+          <button class="btn btn-primary pincodeBTN">Set Pincode</button>
+        </div>
+      </div>
+    </div>
+    <!-- .modal-content -->
+  </div>
+  <!-- .modal-dialog -->
+</div>
+
+<script>
+  $(".disablepin").click(function () {
+    swal({
+      title: "Are you sure?",
+      text: "You will disable your pincode!",
+      icon: "warning",
+      buttons: ["Cancel", "Continue"],
+      dangerMode: true,
+    }).then((willDelete) => {
+      if (willDelete) {
+        disablepin();
+      } else {
+      }
+    });
+
+    function disablepin() {
+      $.ajax({
+        url: "./funtions/changepincode.php?pincode=disable",
+        dataType: "json",
+        success: function (data) {
+          if (data.error == "no") {
+            var response = data.content;
+            window.location.replace("profile?say=" + response);
+          } else {
+          }
+        },
+      });
+    }
+  });
+</script>
+
+<script>
+  $(".pincodeBTN").click(function () {
+    var pin = $("#pincode").val();
+    var pinconfirm = $("#pinconfirm").val();
+    createpin();
+
+    function createpin() {
+      $.ajax({
+        url:
+          "./funtions/changepincode.php?pincode=" +
+          pin +
+          "&pinconfirm=" +
+          pinconfirm,
+        dataType: "json",
+        success: function (data) {
+          if (data.error == "no") {
+            var response = data.content;
+            window.location.replace("profile?say=" + response);
+          } else {
+            var response = data.content;
+            window.location.replace("profile?say=" + response);
+          }
+        },
+      });
+    }
+  });
+</script>
+
+<script>
+  function isNumberKey(evt) {
+    var charCode = evt.which ? evt.which : evt.keyCode;
+    if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57))
+      return false;
+    return true;
+  }
+</script>

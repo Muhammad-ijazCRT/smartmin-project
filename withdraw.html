@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Softnio" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Lowest cost cloud mining: hosted ASIC mining with full ownership and transparency on payouts. Lowest commissions and fastest ROI in the industry"
+    />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <!-- Site Title  -->
+    <title>EhyipScript - Smart Bitcoin Miner</title>
+    <!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="assets/css/vendor.bundle7500.css?ver=103" />
+    <!-- Custom styles for this template -->
+    <link
+      rel="stylesheet"
+      href="assets/css/style7500.css?ver=103"
+      id="layoutstyle"
+    />
+  </head>
+  <body class="page-user">
+    <div class="topbar-wrap">
+      <div class="topbar is-sticky">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <ul class="topbar-nav d-lg-none">
+              <li class="topbar-nav-item relative">
+                <a class="toggle-nav" href="#">
+                  <div class="toggle-icon">
+                    <span class="toggle-line"></span
+                    ><span class="toggle-line"></span
+                    ><span class="toggle-line"></span
+                    ><span class="toggle-line"></span>
+                  </div>
+                </a>
+              </li>
+              <!-- .topbar-nav-item -->
+            </ul>
+            <!-- .topbar-nav --><a class="topbar-logo" href="#"
+              ><img
+                src="images/logo-light2x.png"
+                srcset="images/logo-light2x.png 2x"
+                alt="logo"
+            /></a>
+            <ul class="topbar-nav">
+              <li class="topbar-nav-item relative">
+                <span class="user-welcome d-none d-lg-inline-block"
+                  >Welcome! r9tech</span
+                ><a class="toggle-tigger user-thumb" href="#"
+                  ><em class="ti ti-user"></em
+                ></a>
+                <div
+                  class="toggle-class dropdown-content dropdown-content-right dropdown-arrow-right user-dropdown"
+                >
+                  <ul class="user-links bg-light">
+                    <li>
+                      <a href="logout"><i class="ti ti-power-off"></i>Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- .topbar-nav-item -->
+            </ul>
+            <!-- .topbar-nav -->
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .topbar -->
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-innr">
+            <ul class="navbar-menu">
+              <li>
+                <a href="dashboard.html"
+                  ><em class="ikon ikon-dashboard"></em> Dashboard</a
+                >
+              </li>
+              <li>
+                <a href="buyhash.html"
+                  ><em class="ikon ikon-coins"></em> Buy Hashrate</a
+                >
+              </li>
+              <li>
+                <a href="withdraw.html"
+                  ><em
+                    class="ikon ti-credit-card"
+                    style="font-size: 20px; margin-right: 7px"
+                  ></em>
+                  Withdraw</a
+                >
+              </li>
+              <li>
+                <a href="affiliates.html"
+                  ><em class="ikon ikon-user"></em> Affiliates</a
+                >
+              </li>
+              <li>
+                <a href="profile.html"
+                  ><em class="ikon ti-panel" style="font-size: 20px"></em>
+                  Settings</a
+                >
+              </li>
+              <li>
+                <a href="promotools.html"
+                  ><em
+                    class="ikon fas fa-bullhorn"
+                    style="font-size: 20px"
+                  ></em>
+                  Advertise</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-btns">
+              <li>
+                <a
+                  href="card.html"
+                  class="btn btn-sm btn-outline btn-light"
+                  style="
+                    color: #fff;
+                    background-image: linear-gradient(
+                      to right,
+                      #3550e0,
+                      #2862ab
+                    );
+                  "
+                  ><em class="ti-credit-card" style="margin-right: 10px"></em
+                  ><span> Prepaid Card</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- .navbar-innr -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .navbar -->
+    </div>
+    <!-- .topbar-wrap -->
+    <div class="page-content">
+      <div class="container">
+        <div class="card-head" style="text-align: center; padding-bottom: 33px">
+          <h2 class="page-title" style="font-size: 33px">Request a Withdraw</h2>
+          <p class="card-title-text">
+            Withdraw your account balance instantly to your wallet
+          </p>
+          <div
+            class="alert alert-danger-alt alert-dismissible fade show"
+            style="margin-top: 13px; margin-bottom: 0px"
+          >
+            Enable your pincode to keep your account safe!
+            <a href="profile" style=""> go to settings</a>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+
+          <input type="text" id="btcval" value="50982.53" hidden />
+          <input type="text" id="userbtc" value="None" hidden />
+        </div>
+        <div class="row">
+          <div class="col-xl-8 col-lg-8">
+            <div class="content-area card">
+              <div
+                class="card-head"
+                style="
+                  display: flex;
+                  align-items: center;
+                  background-color: #235fa7;
+                  padding: 10px;
+                  border-radius: 6px 6px 0px 0px;
+                "
+              >
+                <div class="ixc" style="display: flex; padding-right: 0.5rem">
+                  <a
+                    class="refferal-copy copy-clipboard"
+                    style="
+                      position: initial;
+                      color: #ffffff;
+                      background: linear-gradient(
+                        135deg,
+                        #f9be1f 0%,
+                        #fb8c2d 100%
+                      );
+                      right: 6px;
+                      top: 6px;
+                      height: 40px;
+                      width: 40px;
+                      line-height: 20px;
+                      padding: 10px 0;
+                      text-align: center;
+                      border-radius: 4px;
+                      border: none;
+                      cursor: pointer;
+                      transition: all 0.4s;
+                    "
+                    ><em class="ti-wallet" style=""></em
+                  ></a>
+                </div>
+
+                <h5
+                  class="card-title card-title-md"
+                  style="
+                    font-size: 1.2em;
+                    margin-top: 7px;
+                    margin-left: 7px;
+                    color: #fff;
+                  "
+                >
+                  Withdraw Earnings
+                </h5>
+              </div>
+
+              <div class="card-innr">
+                <form id="form_withdraw" class="formwith">
+                  <div style="margin-bottom: 24px">
+                    <label
+                      class="form__label"
+                      style="
+                        color: #2b2b2b;
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                        text-align: left;
+                        display: block;
+                        white-space: nowrap;
+                      "
+                      >Address to Send</label
+                    >
+                    <div class="form__row">
+                      <div class="input-wrap">
+                        <input
+                          type="text"
+                          name="address"
+                          id="input_address"
+                          placeholder="Enter a BTC adress"
+                          autocomplete="off"
+                          style="
+                            border: 1px solid #dee1e2;
+                            width: 100%;
+                            height: 50px;
+                            background-color: transparent;
+                            -webkit-border-radius: 5px;
+                            border-radius: 5px;
+                            font-size: 14px;
+                            padding-right: 20px;
+                            padding-left: 20px;
+                            -webkit-transition: border 0.4s;
+                            -o-transition: border 0.4s;
+                            transition: border 0.4s;
+                            margin-bottom: 6px;
+                          "
+                        />
+
+                        <span
+                          href="#"
+                          data-toggle="tooltip"
+                          title="Setup your pincode for more safe"
+                          class="badge badge-primary"
+                          style="
+                            float: right;
+                            margin-top: 5px;
+                            background-color: #ffffff;
+                            color: #253992;
+                            border-color: #95a1da;
+                            font-size: 10px;
+                            cursor: not-allowed;
+                          "
+                          >My Address?</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-bottom: 30px">
+                    <label
+                      class="form__label"
+                      style="
+                        color: #2b2b2b;
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                        text-align: left;
+                        display: block;
+                        white-space: nowrap;
+                      "
+                      >Amount (BTC)</label
+                    >
+                    <div
+                      class="form__row"
+                      style="
+                        margin-bottom: 12px;
+                        display: flex;
+                        -webkit-box-pack: justify;
+                        -webkit-justify-content: space-between;
+                        -ms-flex-pack: justify;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div
+                        class="input-wrap input-wrap--50"
+                        style="width: calc(50% - 10px)"
+                      >
+                        <div>
+                          <input
+                            name="amount"
+                            id="btcinput"
+                            onfocus="calcthis();"
+                            oninput="calcthis();"
+                            onblur="calcthis();"
+                            type="text"
+                            value="0.00"
+                            style="
+                              border: 1px solid #dee1e2;
+                              width: 100%;
+                              height: 50px;
+                              background-color: transparent;
+                              -webkit-border-radius: 5px;
+                              border-radius: 5px;
+                              font-size: 14px;
+                              padding-right: 20px;
+                              padding-left: 20px;
+                              -webkit-transition: border 0.4s;
+                              -o-transition: border 0.4s;
+                              transition: border 0.4s;
+                            "
+                          />
+                          <label
+                            class="input-wrap__label"
+                            style="
+                              position: absolute;
+                              font-size: 12px;
+                              color: #aeaeae;
+                              text-transform: uppercase;
+                              right: 20px;
+                              top: 36%;
+                              -webkit-transform: translateY(-50%);
+                              -ms-transform: translateY(-50%);
+                              transform: translateY(-50%);
+                              margin: 0;
+                            "
+                            >BTC</label
+                          >
+                        </div>
+                      </div>
+                      <div
+                        class="input-wrap input-wrap--50"
+                        style="width: calc(50% - 10px)"
+                      >
+                        <div>
+                          <input
+                            type="text"
+                            id="usd"
+                            readonly=""
+                            value="0.00"
+                            style="
+                              border: 1px solid #dee1e2;
+                              width: 100%;
+                              height: 50px;
+                              background-color: transparent;
+                              -webkit-border-radius: 5px;
+                              border-radius: 5px;
+                              font-size: 14px;
+                              padding-right: 20px;
+                              padding-left: 20px;
+                              -webkit-transition: border 0.4s;
+                              -o-transition: border 0.4s;
+                              transition: border 0.4s;
+                            "
+                          />
+                          <label
+                            class="input-wrap__label"
+                            style="
+                              position: absolute;
+                              font-size: 12px;
+                              color: #aeaeae;
+                              text-transform: uppercase;
+                              right: 20px;
+                              top: 36%;
+                              -webkit-transform: translateY(-50%);
+                              -ms-transform: translateY(-50%);
+                              transform: translateY(-50%);
+                              margin: 0;
+                            "
+                            >USD</label
+                          >
+                        </div>
+                        <div>
+                          <span
+                            href="#"
+                            id="setbalance"
+                            class="badge badge-primary"
+                            style="
+                              float: right;
+                              margin-top: 7px;
+                              background-color: #ffffff;
+                              color: #253992;
+                              border-color: #95a1da;
+                              font-size: 10px;
+                              cursor: pointer;
+                            "
+                            >All Balance</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <label
+                      class="form__label"
+                      style="
+                        color: #2b2b2b;
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                        text-align: left;
+                        display: block;
+                        white-space: nowrap;
+                      "
+                      >Terms &amp; Conditions
+                      <em
+                        class="fas fa-info-circle"
+                        style="margin-left: 7px"
+                      ></em
+                    ></label>
+
+                    <div
+                      class="card-text"
+                      style="
+                        margin-bottom: 33px;
+                        background: linear-gradient(
+                          45deg,
+                          #d2dde9 0%,
+                          #d2dde9 100%
+                        );
+                        padding: 10px;
+                        color: #2d303a;
+                        border-radius: 4px;
+                        border: 1px solid #ced3da;
+                      "
+                    >
+                      <p style="margin-bottom: 1px; font-size: 14px">
+                        <em
+                          class="fas fa-info-circle"
+                          style="margin-right: 6px"
+                        ></em>
+                        We deduct from you 2% per each withdrawal
+                      </p>
+                      <p style="font-size: 14px">
+                        <em
+                          class="fas fa-info-circle"
+                          style="margin-right: 6px"
+                        ></em>
+                        Min withdraw 0.002 BTC
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn btn-primary withdrawmode"
+                    style="display: block; margin-bottom: 15px"
+                    >Withdraw Bonus</a
+                  >
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- .col -->
+
+          <div class="col-xl-4 col-lg-4">
+            <div class="token-statistics card card-token height-auto">
+              <img
+                src="images/card-right.png"
+                class="card-img-absolute"
+                alt="circle-image"
+                style="
+                  z-index: 0;
+                  position: absolute;
+                  top: 0;
+                  right: 30px;
+                  height: 100%;
+                "
+              />
+
+              <div class="card-innr">
+                <div class="token-balance token-balance-with-icon">
+                  <div
+                    class="token-balance-icon"
+                    style="
+                      position: absolute;
+                      right: 10px;
+                      color: #ffffff;
+                      box-shadow: -6.894px 5.785px 20px 14px
+                        rgba(255, 255, 255, 0.1);
+                      background: linear-gradient(
+                        135deg,
+                        #f9be1f 0%,
+                        #fb8c2d 100%
+                      );
+                      animation: animationpulse 2s infinite;
+                      -webkit-animation: animationpulse 2s ease-out;
+                      animation-iteration-count: 1;
+                      -webkit-animation-iteration-count: infinite;
+                      font-size: 14px;
+                      font-weight: 500;
+                      color: #fff;
+                      height: 80px;
+                      width: 80px;
+                    "
+                  >
+                    <em class="ti-wallet" style="font-size: 47px"></em>
+                  </div>
+
+                  <div class="token-balance-text">
+                    <h6 class="card-sub-title">Account Balance</h6>
+                    <span id="curret_balance" class="lead">0.00000000</span
+                    ><span
+                      style="
+                        padding-left: 7px;
+                        color: #e0e8f3;
+                        font-weight: 900;
+                        font-size: 12px;
+                      "
+                    >
+                      BTC</span
+                    >
+
+                    <span id="usdexchange" style="display: block"
+                      >$0.00 USD</span
+                    >
+                  </div>
+                </div>
+                <div class="token-balance token-balance-s2">
+                  <h6 class="card-sub-title">Network Details</h6>
+                  <ul class="token-balance-list">
+                    <li class="token-balance-sub">
+                      <span id="hashrate" class="lead">0.00 TH/s</span>
+                      <span class="sub"> Active Hashpower</span>
+                    </li>
+
+                    <li class="token-balance-sub">
+                      <span id="daily_payment" class="lead">0.00000000 BTC</span
+                      ><span class="sub">Earning per Days</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="token-sales card">
+              <div
+                class="card-head"
+                style="
+                  padding: 12px;
+                  background-color: #235494;
+                  border-radius: 6px 6px 0px 0px;
+                "
+              >
+                <h5
+                  class="card-title card-title-sm"
+                  style="color: #fff; font-weight: 400"
+                >
+                  <em
+                    class="ti-wallet"
+                    style="font-size: 16px; margin-right: 10px"
+                  ></em>
+                  Withdrawal Stats
+                </h5>
+              </div>
+
+              <div class="card-innr" style="padding-bottom: 7px">
+                <div class="token-rate-wrap row">
+                  <div
+                    class="token-rate col-md-6 col-lg-12"
+                    style="
+                      border-bottom: 1px solid #dce6f5;
+                      padding-bottom: 9px;
+                      margin-bottom: 16px;
+                    "
+                  >
+                    <span class="card-sub-title" style="margin-bottom: 8px"
+                      >Last Withdhraw</span
+                    ><em
+                      class="pay-icon cf cf-btc"
+                      style="
+                        color: #ffffff;
+                        font-size: 11px;
+                        background-color: #fb962b;
+                        border-radius: 100%;
+                        padding-left: 5px;
+                        line-height: 21px;
+                        width: 21px;
+                        position: absolute;
+                      "
+                    ></em>
+
+                    <span
+                      id="lastwithdraw"
+                      class="lead"
+                      style="
+                        font-size: 1.06rem;
+                        font-weight: 500;
+                        line-height: 1;
+                        letter-spacing: -0.02em;
+                        margin-left: 28px;
+                      "
+                      >0.00000000</span
+                    >
+                    <span
+                      style="
+                        padding-left: 3px;
+                        color: #5c5e61;
+                        font-weight: 900;
+                      "
+                    >
+                      BTC</span
+                    >
+                  </div>
+                  <div
+                    class="token-rate col-md-6 col-lg-12"
+                    style="border-bottom: 1px solid #dce6f5"
+                  >
+                    <span class="card-sub-title" style="margin-bottom: 8px"
+                      >Total Withdrawals</span
+                    ><em
+                      class="pay-icon cf cf-btc"
+                      style="
+                        color: #ffffff;
+                        font-size: 11px;
+                        background-color: #fb962b;
+                        border-radius: 100%;
+                        padding-left: 5px;
+                        line-height: 21px;
+                        width: 21px;
+                        position: absolute;
+                      "
+                    ></em>
+
+                    <span
+                      id="totalwithdraw"
+                      class="lead"
+                      style="
+                        font-size: 1.06rem;
+                        font-weight: 500;
+                        line-height: 1;
+                        letter-spacing: -0.02em;
+                        margin-left: 28px;
+                      "
+                      >0.00000000</span
+                    >
+
+                    <span
+                      style="
+                        padding-left: 3px;
+                        color: #5c5e61;
+                        font-weight: 900;
+                      "
+                    >
+                      BTC</span
+                    >
+                  </div>
+                </div>
+                <div class="token-bonus-current">
+                  <div class="fake-class">
+                    <span class="card-sub-title">Number of Withdrawals</span>
+                    <div class="h3 mb-0">0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-12 col-lg-12">
+            <div class="content-area card">
+              <div class="card-innr" style="* text-align: center; */">
+                <div class="card-head">
+                  <div class="card-head" style="padding-bottom: 10px">
+                    <h5 class="card-title card-title-sm">
+                      <em
+                        class="ti-receipt"
+                        style="font-size: 16px; margin-right: 10px"
+                      ></em>
+                      Last Withdrawals
+                    </h5>
+                  </div>
+
+                  <div
+                    id="DataTables_Table_0_wrapper"
+                    class="dataTables_wrapper dt-bootstrap4 no-footer"
+                  >
+                    <div
+                      class="dashboard_first_visit_box"
+                      style="
+                        background: 0 0;
+                        border: 2px dashed #dbdbdb;
+                        border-radius: 5px;
+                        box-shadow: none;
+                        padding: 30px 40px 0;
+                        width: 100%;
+                      "
+                    >
+                      <div
+                        class="note note-danger"
+                        style="margin: auto; background: #224579"
+                      >
+                        <em class="fas fa-info-circle"></em>
+                        <p style="color: #ffffff !important; font-weight: 400">
+                          You have no transactions
+                        </p>
+                      </div>
+                      <br />
+                    </div>
+
+                    <div class="token-buy" style="text-align: center">
+                      <a href="buyhash" class="btn btn-primary"
+                        >Create a New Deposit</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .col -->
+        </div>
+        <!-- .container -->
+      </div>
+    </div>
+    <!-- .page-content -->
+    <div class="footer-bar">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-8">
+            <ul class="footer-links">
+              <li><a href="../index">FAQs</a></li>
+              <li><a href="../privacypolicy">Privacy Policy</a></li>
+              <li><a href="../terms">Terms of Condition</a></li>
+            </ul>
+          </div>
+          <!-- .col -->
+          <div class="col-md-4 mt-2 mt-sm-0">
+            <div
+              class="d-flex justify-content-between justify-content-md-end align-items-center guttar-25px pdt-0-5x pdb-0-5x"
+            >
+              <div class="copyright-text">&copy; 2019 EhyipScript.</div>
+            </div>
+          </div>
+          <!-- .col -->
+        </div>
+        <!-- .row -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .footer-bar --><!-- JavaScript (include all script here) -->
+    <script src="assets/js/jquery.bundle7500.js?ver=103"></script>
+    <script src="assets/js/script7500.js?ver=103"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>
+
+<style>
+  @media only screen and (max-width: 599px) {
+    .right {
+      display: none !important;
+    }
+
+    .jaj-modal {
+      width: 330px !important;
+    }
+
+    .popup__content {
+      padding: 30px 15px 40px !important;
+    }
+  }
+</style>
+
+<style>
+  @media only screen and (max-width: 599px) {
+    .right {
+      display: none !important;
+    }
+
+    .jaj-modal {
+      width: 330px !important;
+    }
+
+    .popup__content {
+      padding: 30px 15px 40px !important;
+    }
+
+    #btnreferral {
+      width: 100% !important;
+    }
+  }
+</style>
+
+<script type="text/javascript">
+  function withdraw() {
+    $.ajax({
+      url: "./funtions/withdraw.php",
+      dataType: "json",
+      method: "get",
+      data: $(".formwith").serialize(),
+      success: function (data) {
+        if (data.error == "no") {
+          var email = data.email;
+          var username = data.username;
+          var amount = data.amount;
+          var btcadrs = data.adress;
+          var txid = data.txid;
+
+          sendmailwithdraw(email, username, amount, btcadrs);
+
+          window.location.replace("paysent?id=" + amount + "&txid=" + txid);
+        } else {
+          var response = data.content;
+
+          window.location.replace("withdraw?payerror=" + response);
+        }
+      },
+    });
+  }
+
+  function pincodecheck(pincode) {
+    $.ajax({
+      url: "./funtions/pincode.php?pincode=" + pincode,
+      dataType: "json",
+      success: function (data) {
+        if (data.error == "no") {
+          withdraw();
+        } else {
+          var response = data.content;
+          window.location.replace("withdraw?payerror=" + response);
+        }
+      },
+    });
+  }
+
+  function sendmailwithdraw(email, username, amount, adress) {
+    $.ajax({
+      url:
+        "funtions/withdrawmail.php?email=" +
+        email +
+        "&username=" +
+        username +
+        "&amount=" +
+        amount +
+        "&adress=" +
+        adress,
+      dataType: "json",
+      success: function (data) {
+        if (data["error"] == "sent") {
+        } else {
+        }
+      },
+    });
+  }
+
+  function calcthis() {
+    var amount = document.getElementById("btcinput").value;
+    var price = document.getElementById("btcval").value;
+    var convert = price * amount;
+    document.getElementById("usd").value = convert.toFixed(2);
+  }
+</script>
+
+<script>
+  $("#setaddress").click(function () {
+    var user_btc = document.getElementById("userbtc").value;
+    document.getElementById("input_address").value = user_btc;
+  });
+</script>
+
+<script>
+  $("#setbalance").click(function () {
+    var user_btc = document.getElementById("curret_balance").innerText;
+    document.getElementById("btcinput").value = user_btc;
+    calcthis();
+  });
+</script>
+
+<script>
+  var $advanced_swal_2 = $(".withdrawmode");
+  if ($advanced_swal_2.length > 0) {
+    $advanced_swal_2.on("click", function (e) {
+      var btc_amount = document.getElementById("btcinput").value;
+      btc_amount = parseFloat(btc_amount).toFixed(8);
+
+      if (btc_amount <= 0.00199999) {
+        swal(
+          "Ops.. Something Wrong",
+          "Minimum amount to withdraw  is 0.002 btc",
+          "error"
+        );
+      } else {
+        swal({
+          title: "Are you sure?",
+          text: "You will send " + btc_amount + " BTC to external address",
+          icon: "warning",
+          buttons: ["Cancel", "Continue"],
+          dangerMode: true,
+        }).then((willDelete) => {
+          if (willDelete) {
+            withdraw();
+          } else {
+          }
+        });
+      }
+      e.preventDefault();
+    });
+  }
+</script>
+
+<style>
+  @media (min-width: 576px) .modal-dialog-sm {
+    min-width: 500px;
+  }
+
+  .modal-dialog-sm {
+    max-width: 305px !important;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #PINform input:focus,
+  #PINform select:focus,
+  #PINform textarea:focus,
+  #PINform button:focus {
+    outline: none;
+  }
+
+  #PINbox {
+    background: #ededed;
+    margin: 3.5%;
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+  }
+  .PINbutton {
+    background: #ededed;
+    color: #7e7e7e;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    text-align: center;
+    width: 45px;
+    height: 42px;
+    margin: 4px 10px;
+    padding: 0;
+  }
+  .clear,
+  .enter {
+    font-size: 1em;
+  }
+  .PINbutton:hover {
+    box-shadow: #506ce8 0 0 1px 1px;
+  }
+  .PINbutton:active {
+    background: #506ce8;
+    color: #fff;
+  }
+  .clear:hover {
+    box-shadow: #ff3c41 0 0 1px 1px;
+  }
+  .clear:active {
+    background: #ff3c41;
+    color: #fff;
+  }
+  .enter:hover {
+    box-shadow: #47cf73 0 0 1px 1px;
+  }
+  .enter:active {
+    background: #47cf73;
+    color: #fff;
+  }
+  .shadow {
+    -webkit-box-shadow: 0px 5px 5px -0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 5px -0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px -0px rgba(0, 0, 0, 0.3);
+  }
+</style>
+
+<div
+  class="modal fade"
+  id="pincoodemodal"
+  tabindex="-1"
+  style="display: none"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-sm modal-dialog-centered"
+    style="margin: auto"
+  >
+    <div class="modal-content" style="">
+      <div class="popup-body" style="padding: 20px">
+        <h3 class="popup-title" style="text-align: center; padding-right: 0px">
+          Pincode to Withdraw
+        </h3>
+        <form
+          action=""
+          method=""
+          name="PINform"
+          id="PINform"
+          autocomplete="off"
+          draggable="true"
+          class=""
+        >
+          <div style="text-align: center">
+            <input
+              id="PINbox"
+              type="password"
+              value=""
+              name="PINbox"
+              maxlength="4"
+              disabled=""
+              style=""
+            />
+          </div>
+          <div style="text-align: center">
+            <input
+              type="button"
+              class="PINbutton"
+              name="1"
+              value="1"
+              id="1"
+              onclick="addNumber(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton"
+              name="2"
+              value="2"
+              id="2"
+              onclick="addNumber(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton"
+              name="3"
+              value="3"
+              id="3"
+              onclick="addNumber(this);"
+            />
+            <br />
+            <input
+              type="button"
+              class="PINbutton"
+              name="4"
+              value="4"
+              id="4"
+              onclick="addNumber(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton"
+              name="5"
+              value="5"
+              id="5"
+              onclick="addNumber(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton"
+              name="6"
+              value="6"
+              id="6"
+              onclick="addNumber(this);"
+            />
+            <br />
+            <input
+              type="button"
+              class="PINbutton"
+              name="7"
+              value="7"
+              id="7"
+              onclick="addNumber(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton"
+              name="8"
+              value="8"
+              id="8"
+              onclick="addNumber(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton"
+              name="9"
+              value="9"
+              id="9"
+              onclick="addNumber(this);"
+            />
+            <br />
+            <input
+              type="button"
+              class="PINbutton clear"
+              name="-"
+              value="clear"
+              id="-"
+              onclick="clearForm(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton"
+              name="0"
+              value="0"
+              id="0"
+              onclick="addNumber(this);"
+            />
+            <input
+              type="button"
+              class="PINbutton enter"
+              name="+"
+              value="enter"
+              id="+"
+              onclick="submitForm(PINbox);"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- .modal-content -->
+  </div>
+  <!-- .modal-dialog -->
+</div>
+
+<script>
+  function addNumber(e) {
+    //document.getElementById('PINbox').value = document.getElementById('PINbox').value+element.value;
+    var v = $("#PINbox").val();
+    $("#PINbox").val(v + e.value);
+  }
+  function clearForm(e) {
+    //document.getElementById('PINbox').value = "";
+    $("#PINbox").val("");
+  }
+  function submitForm(e) {
+    if (e.value == "") {
+      alert("Enter a PIN");
+    } else {
+      pincodecheck(e.value);
+      data = {
+        pin: e.value,
+      };
+
+      $("#PINbox").val("");
+    }
+  }
+</script>
+
+<style>
+  .telegram-popup {
+    height: 130px;
+    min-width: 15%;
+    width: 200px;
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+
+    /*round corners*/
+    border-radius: 10px;
+    /*cool option borders.*/
+
+    /*animate. hide on load*/
+    display: none;
+  }
+
+  /*text stuff*/
+  .telegram-popup p {
+    color: #000000;
+    padding: 4px;
+  }
+
+  .telegram-button {
+    background-color: #30a7db;
+    width: 80%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px #27a5e7;
+    animation: animationpulse 2s infinite;
+    -webkit-animation: animationpulse 2s ease-out;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  .telegram-button:hover {
+    background-color: #1e96c8;
+  }
+
+  .telegram-button p {
+    position: relative;
+    color: #ffffff;
+    font-size: 15px;
+    /*padding makes the link like a bubble*/
+    padding: 10px;
+  }
+
+  .telegram-button-link:link {
+    text-decoration: none;
+  }
+
+  @-webkit-keyframes animationpulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 inherit;
+    }
+    70% {
+      -webkit-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  @keyframes animationpulse {
+    0% {
+      transform: scale(1, 1);
+      -moz-box-shadow: 0 0 0 0 inherit;
+      box-shadow: 0 0 0 0 inherit;
+    }
+    10% {
+      transform: scale(1.1, 1.1);
+    }
+    15% {
+      transform: scale(1, 1);
+    }
+    70% {
+      -moz-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+      box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    }
+    100% {
+      -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  @-ms-keyframes animationpulse {
+    0% {
+      -ms-transform: scale(1, 1);
+    }
+    10% {
+      -ms-transform: scale(1.1, 1.1);
+    }
+    20% {
+      -ms-transform: scale(1, 1);
+    }
+    100% {
+      -ms-transform: scale(1, 1);
+    }
+  }
+</style>

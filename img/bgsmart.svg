@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="359px" viewBox="0 0 1440 359" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="115.731836%" y1="-14.021928%" x2="-22.3464002%" y2="135.502363%" id="linearGradient-1">
+            <stop stop-color="#428AFF" offset="0%"></stop>
+            <stop stop-color="#3C83F2" offset="9.86779135%"></stop>
+            <stop stop-color="#084A8A" offset="91.5102474%"></stop>
+            <stop stop-color="#03447F" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 367 1440 367 1440 0 0 0"></polygon>
+    </defs>
+    <g id="Pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, -8.000000)">
+            <g id="Path-2">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <polygon fill-opacity="0.0600000024" fill="#FFFFFF" mask="url(#mask-3)" points="-13.5 202.714505 195.5 140.607253 296 171.660879 506.5 140.607253 684 183.259222 880 140.607253 1021 183.259222 1153 129.383051 1327 171.660879 1453 151.831455 1453 378.560341 -30.5 378.560341"></polygon>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="196" cy="141.871186" r="8"></circle>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="297" cy="171.240678" r="8"></circle>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="508" cy="140.871186" r="8"></circle>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="686" cy="181.122034" r="8"></circle>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="881" cy="143.115254" r="8"></circle>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="1019" cy="179.122034" r="8"></circle>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="1153" cy="130.674576" r="8"></circle>
+                <circle id="Oval" fill-opacity="0.260812953" fill="#FFFFFF" opacity="0.163666214" mask="url(#mask-3)" cx="1327" cy="169.728814" r="8"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

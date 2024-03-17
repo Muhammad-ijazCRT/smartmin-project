@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="378px" height="373px" viewBox="0 0 378 373" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BGElement2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <filter x="-6.5%" y="-5.5%" width="113.0%" height="113.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.290221632   0 0 0 0 0.290175289   0 0 0 0 0.290237457  0 0 0 0.415845788 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Corporate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGContactForm" transform="translate(-333.000000, -143.000000)">
+            <g id="BGElement2" transform="translate(335.000000, 144.000000)">
+                <path d="M188.571429,371 C290.980801,371 374,287.948821 374,185.5 C374,83.0511789 290.980801,0 188.571429,0 C86.1620564,0 3.14285714,83.0511789 3.14285714,185.5 C3.14285714,287.948821 86.1620564,371 188.571429,371 Z" id="Oval-2" stroke="#D8D8D8" stroke-width="1.04832" stroke-dasharray="6.289920330047607"></path>
+                <path d="M188.571429,317.550847 C261.473016,317.550847 320.571429,258.429669 320.571429,185.5 C320.571429,112.570331 261.473016,53.4491525 188.571429,53.4491525 C115.669842,53.4491525 56.5714286,112.570331 56.5714286,185.5 C56.5714286,258.429669 115.669842,317.550847 188.571429,317.550847 Z" id="Oval-2" stroke-opacity="0.392436594" stroke="#D8D8D8" stroke-width="1.04832" stroke-dasharray="6.289920330047607"></path>
+                <path d="M189.52381,274.115819 C238.41416,274.115819 278.047619,234.467093 278.047619,185.55791 C278.047619,136.648727 238.41416,97 189.52381,97 C140.63346,97 101,136.648727 101,185.55791 C101,234.467093 140.63346,274.115819 189.52381,274.115819 Z" id="Oval-2-Copy" stroke="#D8D8D8" stroke-width="1.04832" stroke-dasharray="6.289920330047607"></path>
+                <g id="Group-10" opacity="0.599920743" transform="translate(140.000000, 136.000000)">
+                    <g id="Group-12">
+                        <g id="Oval-3">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#00C4B3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+                <ellipse id="Oval-2-Copy" stroke="#00C4B3" stroke-width="3.14496" cx="368.761905" cy="138.338983" rx="5.23809524" ry="5.24011299"></ellipse>
+                <ellipse id="Oval-2-Copy-4" stroke="#00C4B3" stroke-width="3.14496" cx="5.23809524" cy="168.731638" rx="5.23809524" ry="5.24011299"></ellipse>
+                <ellipse id="Oval-2-Copy-2" stroke="#0055B8" stroke-width="3.14496" cx="151.904762" cy="58.6892655" rx="5.23809524" ry="5.24011299"></ellipse>
+                <ellipse id="Oval-2-Copy-3" stroke="#0055B8" stroke-width="3.14496" cx="235.714286" cy="260.957627" rx="5.23809524" ry="5.24011299"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
